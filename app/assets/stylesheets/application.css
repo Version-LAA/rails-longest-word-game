@@ -14,9 +14,17 @@
  *= require_self
  */
 
+ .board {
+  margin: 50px;
+ }
+
  li {
   display: inline;
   border: 1px solid black;
   padding: 20px;
-  margin: 10px;
+  margin: 20px;
+ }
+
+ .form {
+  margin-top: 20px;
  }
