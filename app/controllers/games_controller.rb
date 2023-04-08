@@ -9,6 +9,7 @@ class GamesController < ApplicationController
       @letters.push(@characters[@location])
 
     end
+
   end
 
   def score
@@ -20,8 +21,8 @@ class GamesController < ApplicationController
       @message = "Congratulations! #{@word} is a valid english word"
     else
       @message = "Sorry, but #{@word} is not a valid english word"
-
     end
-    # raise
+    @stuff = params[:board]
+    #raise
   end
 end
