@@ -18,13 +18,25 @@
   margin: 50px;
  }
 
+ .parent{
+  display: flex;
+  list-style: none;
+ }
  li {
-  display: inline;
   border: 1px solid black;
   padding: 20px;
   margin: 20px;
+  border-radius: 10px;
+  background-color: blueviolet;
+  color: antiquewhite;
+  box-shadow: 5px 10px #888888;
  }
 
- .form {
+ .forms {
   margin-top: 20px;
+  margin: 0 auto;
+
  }
+.btn {
+  color:whitesmoke;
+}
